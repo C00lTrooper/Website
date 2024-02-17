@@ -16,7 +16,7 @@
     height: 500px;
     width: 700px;
     position: absolute;
-    left: 15%;
+    left: 8%;
     top: calc(50% - 250px);
 }
 
@@ -47,6 +47,7 @@
 #content button:hover {
     background: #FFB347;
     cursor: pointer;
+    filter: drop-shadow(3px 3px 3px #F28500);
 }
 
 #icons {
@@ -54,7 +55,7 @@
     width: 200px;
     background: none;
     position: absolute;
-    left: 10%;
+    left: 6%;
     top: 0;
     display: flex;
     align-items: center;
@@ -80,7 +81,7 @@
 
 /*hover action for icons*/
 
-#icons #iconsLogo :hover {
+#icons #iconsLogo i:hover {
     color: #FFB347;
     filter: drop-shadow(2px 2px 2px #F28500);
 }
