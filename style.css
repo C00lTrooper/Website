@@ -1,0 +1,90 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #9966CC;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #121212;
+}
+
+#content {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 15%;
+    top: calc(50% - 250px);
+}
+
+#content h1 {
+    font-size: 140px;
+    color: #9966CC;
+}
+
+#content p {
+    font-size: 20px;
+    color: #9966CC;
+}
+
+#content button {
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #9966CC;
+    color: white;
+}
+
+#content button:hover {
+    background: #FFB347;
+    cursor: pointer;
+}
+
+#icons {
+    height: 300px;
+    width: 200px;
+    background: none;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+#icons #iconsLogo {
+    height: 300px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icons #iconsLogo i {
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    margin: 40px;
+    color: c#9966CC;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+/*hover action for icons*/
+
+#icons #iconsLogo :hover {
+    color: #FFB347;
+    filter: drop-shadow(2px 2px 2px #F28500);
+}
+
+
+
+
