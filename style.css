@@ -28,6 +28,7 @@
 #content p {
     font-size: 20px;
     color: #9966CC;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #content button {
@@ -48,6 +49,8 @@
     background: #FFB347;
     cursor: pointer;
     filter: drop-shadow(3px 3px 3px #F28500);
+    font-size: 20px;
+    transition: 0.25s ease;
 }
 
 #icons {
@@ -84,6 +87,8 @@
 #icons #iconsLogo i:hover {
     color: #FFB347;
     filter: drop-shadow(2px 2px 2px #F28500);
+    font-size: 50px;
+    transition: 0.25s ease;
 }
 
 

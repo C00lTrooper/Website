@@ -1,10 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<header>
+    <link rel="stylesheet" href="AboutMe.css">
+</header>
 <body>
+    <div id="container">
+        <h1>Něco o mně</h1>
+        <p>Programováním se zabívám již přes 3 roky.
+            Začal jsem, s vizuálním programovacím jazykem Scratch, v kterém jsem absolvoval 2 kurzy. Poté jsem se zúčastnil 2 kurzů v Pythonu a nakonec jsem absolvoval kurz Unity II a Python AI.
+            Tyto  kurzy byly organizovány MakeIToday a každý z nich trval půl roku. Kromě programování již více jak 6 let chodím do skautského oddílu. Mé další koníčky jsou florbal, 3D modelování, hudba a hraní videoher.
+            Dále jsem už přes 2 roky členem redakční rady školní časopisu, kde přispívám články o nových videohrách, vystřihovánkami, fotkami a další pomocí s přípravou časopisu.</p>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
 
+                <div class="Slide1">
+                    <img src="me.jpg" alt="">
+                </div>
+                <div class="Slide">
+                    <a href="https://github.com/C00lTrooper" style="text-decoration:none" target="_blank">
+                        <img src="Project.png" alt="">
+                    </a>
+                </div>
+                <div class="Slide">
+                    <a href="https://casopislondynska.webnode.cz" style="text-decoration:none" target="_blank">
+                        <img src="Casopis.png" alt="">
+                    </a>
+                </div>
+                <div class="Slide" >
+                    <a href="https://www.pribehynasichsousedu.cz/praha-2/praha-2-2022-2023/cajthamlova-monika/#media" style="text-decoration:none" target="_blank">
+                        <img src="Pametnici.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
